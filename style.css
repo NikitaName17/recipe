@@ -1,0 +1,86 @@
+html {
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    border-radius: 16px;
+    margin-block: 64px;
+    padding: 32px;
+    margin-inline: auto;
+    background-color: white;
+    width: 740px;
+}
+
+img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.preporation-block {
+    border-radius: 16px;
+    padding: 32px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preporation-block h3 {
+    color: hsl(332, 51%, 32%);
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 24px;
+}
+
+ol {
+    padding-left: 24px;
+}
+
+li {
+    padding-left: 12px;
+}
+
+.preporation-block ul {
+    margin-bottom: 0;
+}
+
+.preporation-block li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+table {
+    width: 100%
+}
+
+hr {
+    border: 0, 5px solid hsl(30, 18%, 87%);
+}
+
+td {
+    padding-left: 32px;
+    padding-block: 16px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td:nth-child(2n) {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
